@@ -1,4 +1,3 @@
-#ui.r
 
 shinyUI(fluidPage(
   titlePanel("Patient Queries for Vitamin D, 25-Hydroxy Procedures"),
