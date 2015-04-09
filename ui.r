@@ -6,9 +6,9 @@ shinyUI(fluidPage(
     sidebarPanel(
       helpText("Creates a single graph  of all available Vitamin D data trajectories (segments) :  for all patients X axis is date, Y axis in ng/mL"),
       
-      selectInput("mrn", 
+      selectInput("MRN", 
                   label = "Choose your modified MRN",
-                  choices = unique(lab.data[,1]),
+                  choices = unique(subset.data[,1]),
                   selected = "99Y0Y998"),
       
       checkboxInput("checkbox", label= "Plot everyone", value = FALSE)      
