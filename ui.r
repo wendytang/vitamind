@@ -8,7 +8,7 @@ shinyUI(fluidPage(
       
       selectInput("MRN", 
                   label = "Choose your modified MRN",
-                  choices = unique(subset.data[,1]),
+                  choices = c(1:15),
                   selected = "99Y0Y998"),
       
       checkboxInput("checkbox", label= "Plot everyone", value = FALSE)      
