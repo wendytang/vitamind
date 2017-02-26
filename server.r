@@ -1,7 +1,7 @@
 
 # Shiny Example -----------------------------------------------------------
 ## Originally developed for URAP data visualizations to display Patient VitaminD levels
-## Author: Wendy Tang Contact: tangwendy92@gmail.com
+## Author: Wendy Tang
 ## Update 4/8/2015: now contains fake data
 
 
